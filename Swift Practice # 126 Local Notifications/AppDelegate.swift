@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+// 原本放在這裡的UserNotifications程式碼 現在在ViewCOntroller
+//        //options內為可以接受開啟的項目
+//        UNUserNotificationCenter.current().requestAuthorization(options: [.alert,.badge,.carPlay,.sound]) { (granted, error) in
+//            if granted {
+//                print("允許開啟")
+//            }else{
+//                print("拒絕接受開啟")
+//            }
+//        }
+        //UNUserNotificationCenter.current().delegate = self
         return true
     }
 
@@ -30,6 +41,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
+
+    
+//  原本放在這裡的UserNotifications程式碼 現在在ViewCOntroller
+//    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+//        completionHandler([.badge, .banner, .list, .sound]) //app內推播想要看到的資訊
+//    }
 
 
 }

@@ -13,6 +13,7 @@
 		2D5CB4A127900B3B007F4757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5CB49F27900B3B007F4757 /* Main.storyboard */; };
 		2D5CB4A327900B3C007F4757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5CB4A227900B3C007F4757 /* Assets.xcassets */; };
 		2D5CB4A627900B3C007F4757 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5CB4A427900B3C007F4757 /* LaunchScreen.storyboard */; };
+		2D5CB4B027902A2F007F4757 /* appleImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D5CB4AF27902A2F007F4757 /* appleImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2D5CB4A227900B3C007F4757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D5CB4A527900B3C007F4757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D5CB4A727900B3C007F4757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5CB4AF27902A2F007F4757 /* appleImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appleImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				2D5CB49D27900B3B007F4757 /* ViewController.swift */,
 				2D5CB49F27900B3B007F4757 /* Main.storyboard */,
 				2D5CB4A227900B3C007F4757 /* Assets.xcassets */,
+				2D5CB4AF27902A2F007F4757 /* appleImage.jpg */,
 				2D5CB4A427900B3C007F4757 /* LaunchScreen.storyboard */,
 				2D5CB4A727900B3C007F4757 /* Info.plist */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				2D5CB4A627900B3C007F4757 /* LaunchScreen.storyboard in Resources */,
 				2D5CB4A327900B3C007F4757 /* Assets.xcassets in Resources */,
+				2D5CB4B027902A2F007F4757 /* appleImage.jpg in Resources */,
 				2D5CB4A127900B3B007F4757 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
